@@ -1,0 +1,1 @@
+docker run -d --cap-add=IPC_LOCK -e "VAULT_DEV_ROOT_TOKEN_ID=my-root" -e "VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200" --name=dev-server-vault -p 8200:8200 vault

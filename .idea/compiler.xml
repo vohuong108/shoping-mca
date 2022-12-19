@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Order-Service-MCA" />
+        <module name="Configuration-Server-MCA" />
+        <module name="Discovery-Server-MCA" />
+        <module name="Product-Service-MCA" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Configuration-Server-MCA" target="1.8" />
+      <module name="Discovery-Server-MCA" target="1.8" />
+      <module name="Order-Service-MCA" target="1.8" />
+      <module name="Product-Service-MCA" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Configuration-Server-MCA" options="-parameters" />
+      <module name="Discovery-Server-MCA" options="-parameters" />
+      <module name="Order-Service-MCA" options="-parameters" />
+      <module name="Product-Service-MCA" options="-parameters" />
+    </option>
+  </component>
+</project>

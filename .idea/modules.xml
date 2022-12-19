@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Configuration-Server-MCA/Configuration-Server-MCA.iml" filepath="$PROJECT_DIR$/Configuration-Server-MCA/Configuration-Server-MCA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discovery-Server-MCA/Discovery-Server-MCA.iml" filepath="$PROJECT_DIR$/Discovery-Server-MCA/Discovery-Server-MCA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Order-Service-MCA/Order-Service-MCA.iml" filepath="$PROJECT_DIR$/Order-Service-MCA/Order-Service-MCA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Product-Servive-MCA/Product-Service-MCA.iml" filepath="$PROJECT_DIR$/Product-Servive-MCA/Product-Service-MCA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Shopping-Microservice.iml" filepath="$PROJECT_DIR$/.idea/Shopping-Microservice.iml" />
+    </modules>
+  </component>
+</project>
